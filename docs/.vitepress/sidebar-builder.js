@@ -6,10 +6,12 @@
  */
 
 import { readdirSync, existsSync } from 'fs'
-import { resolve, join } from 'path'
+import { resolve, join, dirname } from 'path'
+import { fileURLToPath } from 'url'
 import { disciplines } from './disciplines.js'
 
-const DOCS_DIR = resolve(import.meta.dirname, '..')
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const DOCS_DIR = resolve(__dirname, '..')
 
 const AZ_LETTERS = 'abcdefghijklmnopqrstuvwxyz'.split('')
 

@@ -2,6 +2,7 @@
   "name": "designwiki",
   "version": "1.0.0",
   "description": "A comprehensive, scalable design encyclopedia covering multiple design disciplines",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
