@@ -3,7 +3,6 @@
 # DesignWiki
 
 [![Work in Progress](https://img.shields.io/badge/status-work%20in%20progress-yellow.svg)](https://github.com/JoeMighty/DesignWiki)
-[![Deploy to GitHub Pages](https://github.com/JoeMighty/DesignWiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/JoeMighty/DesignWiki/actions/workflows/deploy.yml)
 [![Built with VitePress](https://img.shields.io/badge/Built%20with-VitePress-646cff?logo=vite&logoColor=white)](https://vitepress.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/Live%20Site-GitHub%20Pages-222?logo=github)](https://joemighty.github.io/DesignWiki/)
