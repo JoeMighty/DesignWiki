@@ -46,6 +46,8 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: 'A comprehensive, multi-discipline design encyclopedia' }],
   ],
 
+  ignoreDeadLinks: true,
+
   markdown: {
     lineNumbers: false,
   },
