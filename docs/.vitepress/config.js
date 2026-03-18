@@ -23,6 +23,7 @@ export default defineConfig({
 
     footer: {
       message: 'Open-source design education resource. · <a href="https://github.com/JoeMighty/DesignWiki/issues">Report an issue</a>',
+      copyright: 'Built by <a href="https://github.com/JoeMighty" target="_blank" rel="noopener">JoeMighty</a>',
     },
 
     editLink: {
