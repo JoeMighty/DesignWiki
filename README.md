@@ -2,36 +2,65 @@
 
 # DesignWiki
 
+[![Work in Progress](https://img.shields.io/badge/status-work%20in%20progress-yellow.svg)](https://github.com/JoeMighty/DesignWiki)
 [![Deploy to GitHub Pages](https://github.com/JoeMighty/DesignWiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/JoeMighty/DesignWiki/actions/workflows/deploy.yml)
 [![Built with VitePress](https://img.shields.io/badge/Built%20with-VitePress-646cff?logo=vite&logoColor=white)](https://vitepress.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/Live%20Site-GitHub%20Pages-222?logo=github)](https://joemighty.github.io/DesignWiki/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/JoeMighty/DesignWiki/issues)
 
-A comprehensive, multi-discipline design encyclopedia — fully searchable, shareable collections, zero hosting cost.
+A comprehensive, multi-discipline design encyclopedia. Fully searchable, shareable collections, zero hosting cost.
 
-**Live site →** [joemighty.github.io/DesignWiki](https://joemighty.github.io/DesignWiki/)
+**[Explore the Live Site →](https://joemighty.github.io/DesignWiki/)**
 
 </div>
+
+---
+
+## 📍 Table of Contents
+
+* [What's Inside](#whats-inside)
+* [Tech Stack](#-tech-stack)
+* [Getting Started](#getting-started-local-development)
+* [How to Add Content](#how-to-add-content)
+* [How to Add a New Discipline](#how-to-add-a-new-discipline)
+* [Collections & Sharing](#collections--sharing)
+* [Project Structure](#project-structure)
+* [License](#license)
 
 ---
 
 ## What's Inside
 
 | Discipline | Sections |
-|-----------|----------|
+|:---|:---|
 | 🎨 **Graphic Design** | Glossary A–Z · Design Styles · Techniques · Print · Digital · Motion |
 | 🖥️ **UX Design** | Glossary A–Z · Principles · Methods |
-| ➕ *More disciplines coming* | Add your own — see below |
+| ➕ **More coming** | Add your own disciplines below |
+
+---
+
+## 🛠 Tech Stack
+
+The project is built with modern, lightweight tools to ensure speed and easy maintenance:
+
+[![My Skills](https://skillicons.dev/icons?i=js,nodejs,vite,markdown,github,githubactions)](https://skillicons.dev)
+
+* **Framework:** VitePress (Vue-powered static site generator)
+* **Storage:** LocalStorage (for user collections)
+* **Deployment:** GitHub Actions + GitHub Pages
+* **Database:** Zero (Markdown files serve as the database)
 
 ---
 
 ## Getting Started (Local Development)
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) v18 or later
-- npm (bundled with Node.js)
+* [Node.js](https://nodejs.org/) v18 or later
+* npm (bundled with Node.js)
 
+---
+  
 ### Setup
 
 ```bash
