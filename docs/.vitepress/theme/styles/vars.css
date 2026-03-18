@@ -1,0 +1,35 @@
+/* DesignWiki — CSS Custom Properties */
+
+:root {
+  --dw-brand: #646cff;
+  --dw-brand-soft: #eef0ff;
+  --dw-radius: 8px;
+  --dw-radius-lg: 14px;
+  --dw-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+  --dw-shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.16);
+  --dw-transition: 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+  --dw-panel-width: 340px;
+
+  /* Override VitePress brand */
+  --vp-c-brand-1: #646cff;
+  --vp-c-brand-2: #535bf2;
+  --vp-c-brand-3: #4649e5;
+  --vp-c-brand-soft: #eef0ff;
+}
+
+.dark {
+  --dw-brand-soft: #1e1f4b;
+  --vp-c-brand-soft: #1e1f4b;
+}
+
+/* Per-discipline accent colours applied via data attributes */
+[data-discipline="ux-design"] {
+  --vp-c-brand-1: #10b981;
+  --vp-c-brand-2: #059669;
+  --vp-c-brand-3: #047857;
+  --vp-c-brand-soft: #ecfdf5;
+}
+
+.dark [data-discipline="ux-design"] {
+  --vp-c-brand-soft: #052e16;
+}

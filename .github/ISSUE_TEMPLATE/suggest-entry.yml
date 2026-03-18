@@ -1,0 +1,68 @@
+name: Suggest an Entry
+description: Suggest a new term, technique, style, or principle to add to DesignWiki.
+title: "[Entry Suggestion] "
+labels: ["content", "suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to DesignWiki! Fill in the details below and we'll review your suggestion.
+
+  - type: dropdown
+    id: discipline
+    attributes:
+      label: Discipline
+      description: Which discipline does this entry belong to?
+      options:
+        - Graphic Design
+        - UX Design
+        - Other (describe below)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      description: Which section of the discipline?
+      options:
+        - Glossary
+        - Design Styles / Movements
+        - Techniques
+        - Print
+        - Digital
+        - Motion
+        - Principles
+        - Methods
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: term
+    attributes:
+      label: Term / Entry Name
+      placeholder: e.g. "Gestalt Principles"
+    validations:
+      required: true
+
+  - type: textarea
+    id: definition
+    attributes:
+      label: Suggested Definition or Description
+      description: A clear explanation of the term. Can be rough — we'll refine it.
+      placeholder: Explain the term in plain language...
+    validations:
+      required: true
+
+  - type: input
+    id: related
+    attributes:
+      label: Related Terms
+      placeholder: e.g. "Proximity, Alignment, Hierarchy"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any context, sources, or examples worth including?

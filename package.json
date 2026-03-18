@@ -1,0 +1,14 @@
+{
+  "name": "designwiki",
+  "version": "1.0.0",
+  "description": "A comprehensive, scalable design encyclopedia covering multiple design disciplines",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.3.4",
+    "vue": "^3.4.0"
+  }
+}
