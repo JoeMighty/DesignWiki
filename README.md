@@ -1,3 +1,5 @@
+<div align="center">
+
 # DesignWiki
 
 [![Deploy to GitHub Pages](https://github.com/JoeMighty/DesignWiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/JoeMighty/DesignWiki/actions/workflows/deploy.yml)
@@ -9,6 +11,8 @@
 A comprehensive, multi-discipline design encyclopedia — fully searchable, shareable collections, zero hosting cost.
 
 **Live site →** [joemighty.github.io/DesignWiki](https://joemighty.github.io/DesignWiki/)
+
+</div>
 
 ---
 
